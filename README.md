@@ -1,7 +1,7 @@
 # **Fordonsuthyrningssystem**
 
 ## **Projektbeskrivning**
-Detta projekt är ett fordonsuthyrningssystem utvecklat i Java. Programmet erbjuder en konsolbaserad meny där användare kan:
+Detta projekt är ett fordonsuthyrningssystem utvecklat i Java. Programmet erbjuder en meny där användare kan:
 - Visa tillgängliga fordon.
 - Hyra ett fordon.
 - Returnera ett fordon.
