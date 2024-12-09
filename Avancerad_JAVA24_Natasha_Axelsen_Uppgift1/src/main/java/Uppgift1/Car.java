@@ -1,13 +1,11 @@
 package Uppgift1;
 
-// The Car class is a specific vehicle class that extends the abstract Vehicle class
-// and implements the Rentable interface.
+// The Car class is a specific vehicle class that extends the abstract Vehicle class and implements the Rentable interface.
 public class Car extends Vehicle implements Rentable {
     // Indicates whether the car is electric
     private boolean isElectric;
 
-    // Constructor to initialize a car with its model, registration number,
-    // rental price per day, and whether it is electric.
+    // Constructor to initialize a car with its model, registration number, rental price per day, and whether it is electric.
     public Car(String model, String registrationNumber, double rentalPricePerDay, boolean isElectric) {
         super(model, registrationNumber, rentalPricePerDay); // Calls the superclass constructor
         this.isElectric = isElectric; // Sets whether the car is electric

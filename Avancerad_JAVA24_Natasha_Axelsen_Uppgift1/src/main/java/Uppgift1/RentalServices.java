@@ -3,8 +3,7 @@ package Uppgift1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// The RentalServices class manages the vehicle rental system, including viewing, renting,
-// and returning vehicles. It also maintains a list of available and rented vehicles.
+// The RentalServices class manages the vehicle rental system, including viewing, renting, and returning vehicles. It also maintains a list of available and rented vehicles.
 public class RentalServices {
     // List to store available vehicles
     private static ArrayList<Vehicle> vehicles = new ArrayList<>();
